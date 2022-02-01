@@ -10,7 +10,7 @@
   "author": "stdissoft",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^16.0.7",
+    "electron": "^17.0.0",
     "electron-packager": "^15.4.0"
   },
   "dependencies": {
