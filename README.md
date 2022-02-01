@@ -1,4 +1,6 @@
-# Like Bundle
+# Like Bundle - 0.1
+
+### Bundle alternative desktop application
 
 ```bash
 # Install dependencies
