@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Bundle</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body class="bg-dark">
+  <div class="window">
+    <div class="window-content">
+      <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-dark">
+        <div style="position: fixed;top:0;z-index: 9999;width: 100%;" class="bg-dark border-bottom border-secondary">
+          <div
+            class="d-flex w-100 align-items-center justify-content-between  flex-shrink-0 p-3 link-dark text-decoration-none border-bottom border-dark">
+            <span class="fw-semibold text-light" style="background-color: transparent;">
+              <img class="img-fluid rounded-3 mx-2" width="32" height="32" src="./assets/icon/icon.png">Bundle</span>
+            <div class="btn-group">
+              <button type="button" id="toggleNotifications" style="
+              background-color: transparent;
+              border: none;" class="btn btn-danger"><i class="fa fa-bell" aria-hidden="true"></i>
+              </button>
+              <button type="button" style="
+              background-color: transparent;
+              border: none;" class="btn btn-danger " data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa fa-cog" aria-hidden="true"></i>
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" id="muteNotifications" href="#">Mute Notifications</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" id="quitApp" href="#">Quit</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="border-bottom scrollarea bg-dark border-secondary">
+          <div class="container" style="margin-top: 65px;height: 390px;overflow-y: auto;">
+            <div class="row row-cols-2 p-3 g-2" id="news-content">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="./assets/js/bootstrap.bundle.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+{
+  "name": "Bundle",
+  "version": "1.0.0",
+  "description": "A minimal Bundle alternatice application",
+  "main": "main.js",
+  "icon": "assets/icon/icon.png",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "stdissoft",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-packager": "^15.4.0"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "moment": "^2.29.1",
+    "node-notifier": "^10.0.0"
+  },
+  "build": {
+    "productName": "Bundle",
+    "appId": "com.stdiosoft.bundle",
+    "mac": {
+      "icon": "assets/icon/icon.icns",
+      "category": "public.app-category.utilities"
+    }
+  }
+}
