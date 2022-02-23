@@ -75,6 +75,10 @@ document.getElementById("toggleNotifications").onclick = function(){
   document.getElementById("toggleNotifications").innerHTML = iconStr;
 }
 
+document.getElementById("clearFeeds").onclick = function(){
+  document.getElementById('news-content').innerHTML = iconStr;
+}
+
 document.getElementById("quitApp").onclick = function(){
   ipcRenderer.send("quitApp-event");
 }
